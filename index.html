@@ -1,39 +1,16 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>WUTT — Coming Soon</title>
-  <meta name="description" content="Waterloo Underwater Technology Team. Full site coming soon." />
-  <meta name="theme-color" content="#fdf8ef" />
-  <meta property="og:title" content="WUTT — Waterloo Underwater Technology Team" />
-  <meta property="og:description" content="Coming soon. Follow our socials for updates." />
-  <meta property="og:image" content="https://wutt.info/assets/wutt-logo.png" />
-  <meta property="og:url" content="https://wutt.info" />
-  <link rel="icon" type="image/png" href="/assets/favicon.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css" />
-</head>
-<body>
-  <main class="surface">
-    <div class="sky-sun" aria-hidden="true"></div>
-    <div class="surface-inner">
-      <h1 class="logo-wrap">
-        <img src="/assets/wutt-logo.png" alt="WUTT — Waterloo Underwater Technology Team" width="1200" height="590" />
-      </h1>
-      <p class="headline">Coming soon.</p>
-      <a class="socials" href="https://linktr.ee/wutt26" target="_blank" rel="noopener noreferrer">
-        Follow our socials
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7m0 0H9m8 0v8" /></svg>
-      </a>
-    </div>
-
-    <svg class="waterline" viewBox="0 0 1440 160" preserveAspectRatio="none" aria-hidden="true">
-      <path class="wave wave-back" d="M0,80 C240,40 480,120 720,80 C960,40 1200,120 1440,80 C1680,40 1920,120 2160,80 C2400,40 2640,120 2880,80 L2880,160 L0,160 Z" />
-      <path class="wave wave-front" d="M0,100 C240,60 480,140 720,100 C960,60 1200,140 1440,100 C1680,60 1920,140 2160,100 C2400,60 2640,140 2880,100 L2880,160 L0,160 Z" />
-    </svg>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700&family=Manrope:wght@350;500&family=Play:wght@400;700&display=swap" rel="stylesheet" />
+    <title>wutt-website</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
